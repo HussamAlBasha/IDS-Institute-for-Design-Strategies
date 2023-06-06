@@ -109,5 +109,5 @@ scikit-maad:
         channel: ["Left", "Right"]
 
     all_spectral_alpha_indices:
-        run: false
+        run: true
         channel: ["Left", "Right"]
