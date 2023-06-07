@@ -8,6 +8,7 @@ As I noticed, soundscpy takle 2 main things:
     2) ISD Dataformat Analysis
 
 Plotting
+
 A: Plotting Functions for Visualising Circumplex Data
 
     1) Scatter Plots
