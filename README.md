@@ -8,6 +8,7 @@ As I noticed, soundscpy takle 2 main things:
 
 Plotting
 A: Plotting Functions for Visualising Circumplex Data
+
     1) Scatter Plots
     2) Distribution (Density) Plots
     3) Jointplot
