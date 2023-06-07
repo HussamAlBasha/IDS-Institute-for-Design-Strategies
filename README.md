@@ -14,4 +14,5 @@ A: Plotting Functions for Visualising Circumplex Data
     3) Jointplot
     
 B: Plotting Functions for Visualising Likert Scale Data
+
     1) Radar/Spider Plot
