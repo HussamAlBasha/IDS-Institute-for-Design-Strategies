@@ -5,7 +5,7 @@ In this Private repository I am summarizing and documenting what I could underst
 As I noticed, soundscpy takle 2 main things:
 
     1) Binaural Recording Analysis
-    3) ISD Dataformat Analysis
+    2) ISD Dataformat Analysis
 
 Plotting
 A: Plotting Functions for Visualising Circumplex Data
