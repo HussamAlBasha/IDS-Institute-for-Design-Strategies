@@ -10,15 +10,16 @@ In this Private repository I am summarizing and documenting what I could underst
 
 Here are the steps you need to follow:
 
-+ Install Python: Download and install Python from the official Python website (https://www.python.org/downloads/) if you haven't already.
+Install Python: Download and install Python from the official Python website (https://www.python.org/downloads/) if you haven't already.
 
-+ Install Jupyter: Open a terminal or command prompt and run the following command to install Jupyter using pip, which is the Python package installer:
-       
-       pip install jupyter
-  This command will install the Jupyter package on your system.  
-+ Download VSCode from here: https://code.visualstudio.com/download and Install it.
+Install Jupyter: Open a terminal or command prompt and run the following command to install Jupyter using pip, which is the Python package installer:
 
-+ Install the python & Jupyter Extensions in VS Code: Launch VS Code and go to the Extensions view (Ctrl+Shift+X or View > Extensions). Search for "Jupyter" and "python" extensions and install them.
+ pip install jupyter
+This command will install the Jupyter package on your system.
+
+Download VSCode from here: https://code.visualstudio.com/download and Install it.
+
+Install the python & Jupyter Extensions in VS Code: Launch VS Code and go to the Extensions view (Ctrl+Shift+X or View > Extensions). Search for "Jupyter" and "python" extensions and install them.
 
 Now you can create and open Jupyter notebooks (.ipynb files) in VS Code using the Jupyter extension. The notebook interface will be displayed within the editor, and you can write code, execute cells, and view the results—all within the VS Code environment.
 
@@ -26,8 +27,7 @@ Jupyter Notebook supports multiple programming languages, including Python, R, J
 
 The key feature of Jupyter Notebook is its ability to execute code in "cells" interactively. You can write and run code snippets in individual cells, which can be executed in any order. This allows you to experiment, test code, and visualize results in an iterative and interactive manner.
 
-### Note: Users can use any IDE. However in our work we use VSCode because it is light and suitable for our purposes.
-
+Note: Users can use any IDE. However in our work we use VSCode because it is light and suitable for our purposes.
 ## 3) Soundscapy Guidlines
 
 ### Soundscpy can be used for:
