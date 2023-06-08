@@ -1,5 +1,4 @@
 # Internship
-<span style="color: blue;">This text will appear in blue.</span>
 
 In this Private repository I am summarizing and documenting what I could understand and apply from soundscape repository (https://github.com/MitchellAcoustics/Soundscapy)
 
