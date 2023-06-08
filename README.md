@@ -26,7 +26,7 @@ Jupyter Notebook supports multiple programming languages, including Python, R, J
 
 The key feature of Jupyter Notebook is its ability to execute code in "cells" interactively. You can write and run code snippets in individual cells, which can be executed in any order. This allows you to experiment, test code, and visualize results in an iterative and interactive manner.
 
-Note: Users can use any IDE. However in our work we use VSCode because it is light and suitable for our purposes.
+### Note: Users can use any IDE. However in our work we use VSCode because it is light and suitable for our purposes.
 
 ## 3) Soundscapy Guidlines
 
@@ -50,6 +50,8 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 + #### Plotting Functions for Visualising Likert Scale Data
   + Radar/Spider Plot
 
+### Note: In this repository you can find a detailed Jypter Notebooks to help you use Soundscapy for the mentioned above purposes. 
+ 
 ## 4) Case Study
 
     4.1. Data Collection
