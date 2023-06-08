@@ -28,7 +28,7 @@ In this Private repository I am summarizing and documenting what I could underst
 
     Soundscapy for Façade Design
 
-## 4) Case study
+## 4) Case Study
 
     4.1. Data Collection
 
