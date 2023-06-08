@@ -34,9 +34,9 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 
 ### 3.1) Binaural Recording Analysis
 + #### Prepping the Results Dataframe
-#### 3.3.2) Load in a Binaural Recording
-#### 3.3.3) Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
-#### 3.3.4) Defining Analysis Settings
++ #### 3.3.2) Load in a Binaural Recording
++ #### 3.3.3) Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
++ #### 3.3.4) Defining Analysis Settings
 ### 3.2) Statistical Analysis of the ISD Dataset
 ### 3.3) Plotting
 #### 3.3.1) Plotting Functions for Visualising Circumplex Data
