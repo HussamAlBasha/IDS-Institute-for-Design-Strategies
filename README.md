@@ -5,7 +5,7 @@ In this Private repository I am summarizing and documenting what I could underst
 
 ## 1) Introduction
 
-## 2) Setting up VSCode
+## 2) Setting Up VSCode
 
 ## 3) Soundscapy Guidlines
 
