@@ -14,7 +14,7 @@ Install Python: Download and install Python from the official Python website (ht
 
 Install Jupyter: Open a terminal or command prompt and run the following command to install Jupyter using pip, which is the Python package installer:
 
- pip install jupyter
+    pip install jupyter
 This command will install the Jupyter package on your system.
 
 Download VSCode from here: https://code.visualstudio.com/download and Install it.
