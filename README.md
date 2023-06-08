@@ -1,5 +1,5 @@
 # Internship
-# <h1 style="color:#AED6F1 ; font-weight: bold; font-style: italic;">Defining Analysis Settings</h1>
+
 In this Private repository I am summarizing and documenting what I could understand and apply from soundscape repository (https://github.com/MitchellAcoustics/Soundscapy)
 
 # Soundscapy for Façade Design
