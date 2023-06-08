@@ -40,11 +40,17 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 ### 3.2) Statistical Analysis of the ISD Dataset
 ### 3.3) Plotting
 + #### Plotting Functions for Visualising Circumplex Data
-+      Scatter Plots
+       +Scatter Plots
        + Distribution (Density) Plots
        + Jointplot
 + #### Plotting Functions for Visualising Likert Scale Data
        + Radar/Spider Plot
+
+- Header 4
+  - Bullet point 1
+  - Bullet point 2
+- Next item
+
 
 ## 4) Case Study
 
