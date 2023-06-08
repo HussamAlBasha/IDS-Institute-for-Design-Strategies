@@ -33,8 +33,8 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 ### Soundscpy can be used for:
 
 ### 3.1) Binaural Recording Analysis
-+ #### Prepping the Results Dataframe
-+ #### Load in a Binaural Recording
+  + #### Prepping the Results Dataframe
+  + #### Load in a Binaural Recording
 + #### Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
 + #### Defining Analysis Settings
 ### 3.2) Statistical Analysis of the ISD Dataset
@@ -45,12 +45,6 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
   + Jointplot
 + #### Plotting Functions for Visualising Likert Scale Data
   + Radar/Spider Plot
-
-- Header 4
-- Bullet point 1
-  - Bullet point 2
-- Next item
-
 
 ## 4) Case Study
 
