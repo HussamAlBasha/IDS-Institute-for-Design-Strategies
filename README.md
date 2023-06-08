@@ -2,6 +2,7 @@
 
 In this Private repository I am summarizing and documenting what I could understand and apply from soundscape repository (https://github.com/MitchellAcoustics/Soundscapy)
 
+# Soundscapy for Façade Design
 
 ## 1) Introduction
 
@@ -29,24 +30,21 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 
 ## 3) Soundscapy Guidlines
 
-### As I noticed, soundscpy takle 2 main things:
+### As I noticed, soundscpy can be used:
 
 + ####  Binaural Recording Analysis
-+ ####  ISD Dataformat Analysis
++ ####  Statistical Analysis of the ISD Dataset
++ ####  Plotting
 
-### Plotting
-
-#### A: Plotting Functions for Visualising Circumplex Data
+##### A: Plotting Functions for Visualising Circumplex Data
 
     1) Scatter Plots
     2) Distribution (Density) Plots
     3) Jointplot
     
-#### B: Plotting Functions for Visualising Likert Scale Data
+##### B: Plotting Functions for Visualising Likert Scale Data
 
     1) Radar/Spider Plot
-
-    Soundscapy for Façade Design
 
 ## 4) Case Study
 
