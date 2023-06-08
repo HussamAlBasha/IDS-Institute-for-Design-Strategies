@@ -12,9 +12,9 @@ Here are the steps you need to follow:
 + Install Python: Download and install Python from the official Python website (https://www.python.org/downloads/) if you haven't already.
 
 + Install Jupyter: Open a terminal or command prompt and run the following command to install Jupyter using pip, which is the Python package installer:
+       
        pip install jupyter
-This command will install the Jupyter package on your system.
-    
+  This command will install the Jupyter package on your system.  
 + Download VSCode from here: https://code.visualstudio.com/download and Install it.
 
 + Install the python & Jupyter Extensions in VS Code: Launch VS Code and go to the Extensions view (Ctrl+Shift+X or View > Extensions). Search for "Jupyter" and "python" extensions and install them.
