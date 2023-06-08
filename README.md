@@ -5,7 +5,9 @@ In this Private repository I am summarizing and documenting what I could underst
 
 ## 1) Introduction
 
-## 2) Setting up VSCode + Soundscapy
+## 2) Setting up VSCode
+
+## 3) Soundscapy Guidlines
 
 ### As I noticed, soundscpy takle 2 main things:
 
@@ -26,23 +28,23 @@ In this Private repository I am summarizing and documenting what I could underst
 
     Soundscapy for Façade Design
 
-## 3) Case study
+## 4) Case study
 
-    3.1. Data Collection
+    4.1. Data Collection
 
-        3.1.1. Recording Stage
+        4.1.1. Recording Stage
 
-        3.1.1. Questionnaire Stage
+        4.1.1. Questionnaire Stage
 
-    3.2. Data Analysis
+    4.2. Data Analysis
 
-        3.2.1. Binaural Recording Analysis
+        4.2.1. Binaural Recording Analysis
 
-        3.2.2. Questionnaire Result Analysis
+        4.2.2. Questionnaire Result Analysis
 
-## 4) Results
+## 5) Results
 
-## 5) Conclusion
+## 6) Conclusion
 
 
 
