@@ -30,16 +30,16 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 
 ## 3) Soundscapy Guidlines
 
-### As I noticed, soundscpy can be used:
+### Soundscpy can be used for:
 
-#### 3.1) Binaural Recording Analysis
-#### 3.2) Statistical Analysis of the ISD Dataset
-#### 3.3) Plotting
-##### 3.3.1) Plotting Functions for Visualising Circumplex Data
+### 3.1) Binaural Recording Analysis
+### 3.2) Statistical Analysis of the ISD Dataset
+### 3.3) Plotting
+#### 3.3.1) Plotting Functions for Visualising Circumplex Data
 + Scatter Plots
 + Distribution (Density) Plots
 + Jointplot
-##### 3.3.2) Plotting Functions for Visualising Likert Scale Data
+#### 3.3.2) Plotting Functions for Visualising Likert Scale Data
 + Radar/Spider Plot
 
 ## 4) Case Study
