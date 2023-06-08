@@ -32,9 +32,9 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 
 ### As I noticed, soundscpy can be used:
 
-3.1) ####  Binaural Recording Analysis
-3.2) ####  Statistical Analysis of the ISD Dataset
-3.3) ####  Plotting
+#### 3.1) Binaural Recording Analysis
+#### 3.2) Statistical Analysis of the ISD Dataset
+#### 3.3) Plotting
 ##### A: Plotting Functions for Visualising Circumplex Data
 1) Scatter Plots
 2) Distribution (Density) Plots
