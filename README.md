@@ -33,11 +33,15 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 ### Soundscpy can be used for:
 
 ### 3.1) Binaural Recording Analysis
-  + #### Prepping the Results Dataframe
-  + #### Load in a Binaural Recording
++ #### Prepping the Results Dataframe
++ #### Load in a Binaural Recording
 + #### Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
 + #### Defining Analysis Settings
 ### 3.2) Statistical Analysis of the ISD Dataset
++ #### Loading the Data
++ #### Filtering the Data
++ #### Validating the Data
++ #### Calculating the ISOPleasant and ISOEventful Coordinate Values
 ### 3.3) Plotting
 + #### Plotting Functions for Visualising Circumplex Data
   + Scatter Plots
