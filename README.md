@@ -35,12 +35,12 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 #### 3.1) Binaural Recording Analysis
 #### 3.2) Statistical Analysis of the ISD Dataset
 #### 3.3) Plotting
-##### A: Plotting Functions for Visualising Circumplex Data
-1) Scatter Plots
-2) Distribution (Density) Plots
-3) Jointplot
-##### B: Plotting Functions for Visualising Likert Scale Data
-1) Radar/Spider Plot
+##### 3.3.1) Plotting Functions for Visualising Circumplex Data
++ Scatter Plots
++ Distribution (Density) Plots
++ Jointplot
+##### 3.3.2) Plotting Functions for Visualising Likert Scale Data
++ Radar/Spider Plot
 
 ## 4) Case Study
 
