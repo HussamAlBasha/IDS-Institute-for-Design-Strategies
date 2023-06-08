@@ -31,8 +31,8 @@ Note: Users can use any IDE. However in our work we use VSCode because it is lig
 
 ### As I noticed, soundscpy takle 2 main things:
 
-    1) Binaural Recording Analysis
-    2) ISD Dataformat Analysis
+    #### + Binaural Recording Analysis
+    #### + ISD Dataformat Analysis
 
 ### Plotting
 
