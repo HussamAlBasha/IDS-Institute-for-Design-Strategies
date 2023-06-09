@@ -30,9 +30,9 @@ The key feature of Jupyter Notebook is its ability to execute code in "cells" in
 ### Note: Users can use any IDE. However in our work we use VSCode because it is light and suitable for our purposes.
 ## 3) Soundscapy Guidlines
 
-+ ### Open a terminal or command prompt and run the following command to install soundscapy library: 
-               pip install soundscapy
-+ ### Soundscpy can be used for:
+### Open a terminal or command prompt and run the following command to install soundscapy library: 
+      pip install soundscapy
+### Soundscpy can be used for:
 
 ### 3.1) Binaural Recording Analysis
 + #### Prepping the Results Dataframe
