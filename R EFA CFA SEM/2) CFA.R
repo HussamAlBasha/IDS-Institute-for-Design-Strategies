@@ -3,12 +3,14 @@
 install.packages("readxl")      ### reads excel
 install.packages("lavaan")      ### does LAtent VAriable ANalysis see https://lavaan.ugent.be/
 install.packages("lavaanPlot")  ### make plots https://cran.r-project.org/web/packages/lavaanPlot/vignettes/Intro_to_lavaanPlot.html
+install.packages("tidySEM") 
 
 ## Pull the packages out of the library
 
 library(readxl)
 library(lavaan)
 library(lavaanPlot)
+library(tidySEM)
 
 ## Turn off scientific notation
 
@@ -97,3 +99,13 @@ lavaanPlot(model = fit,
            coefs = T,
            stand = T,
            covs  = T)
+
+# Graphics without customization
+graph_sem(model = fit)
+
+# Customize Layout
+cfa_layout <- get_layout("", "f3", "","","f1","","","f2", "",
+                         "ATGC_7", "ATGC_8", "ATGC_9", "ATGC_1", "ATGC_2", "ATGC_3", "ATGC_4", "ATGC_5", "ATGC_6", rows = 2)
+
+# Graphic with customization
+graph_sem(model = fit, layout = cfa_layout)
