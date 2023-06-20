@@ -77,7 +77,6 @@ summary(fit3e)
 
 ## Modeling a path analysis in lavaan
 
-# Regressions
 m4a <- '
   read ~ 1 + ppsych + motiv
 arith ~ 1 + motiv + read
