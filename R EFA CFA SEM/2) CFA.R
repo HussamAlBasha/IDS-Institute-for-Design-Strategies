@@ -1,9 +1,8 @@
-## Packages to install- only needs to be done once.
+## Packages to be installed - only needs to be done once.
 
 install.packages("readxl")      ### reads excel
 install.packages("lavaan")      ### does LAtent VAriable ANalysis see https://lavaan.ugent.be/
 install.packages("lavaanPlot")  ### make plots https://cran.r-project.org/web/packages/lavaanPlot/vignettes/Intro_to_lavaanPlot.html
-
 
 ## Pull the packages out of the library
 
@@ -15,7 +14,7 @@ library(lavaanPlot)
 
 options(scipen = 999)
 
-## Read in the data set
+## Read in & View the data set (Note the path might change in your case)
 
 ATGC_cfa <- read_excel("C:/Users/fspintern1/Desktop/Internship - Hussam/Intern/R EFA CFA SEM/ATGC_expFA.xlsx")
 View(ATGC_cfa)        

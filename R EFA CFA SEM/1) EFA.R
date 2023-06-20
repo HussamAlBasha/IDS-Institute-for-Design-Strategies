@@ -1,4 +1,4 @@
-## Packages to install- only needs to be done once.
+## Packages to be installed - only needs to be done once.
 
 install.packages("psych")        ## PCA/EFA among many other things!
 install.packages("REdaS")        ## Produces KMO and Bartletts test
@@ -14,11 +14,10 @@ library(REdaS)
 library(GPArotation)
 library(paran)
 
-## Load & View the Data
+## Read in & View the data set (Note the path might change in your case)
 
-ATGC <- read_excel("C:/Users/fspintern1/Desktop/Internship - Hussam/R/test/ATGC_expFA.xlsx")
+ATGC <- read_excel("C:/Users/fspintern1/Desktop/Internship - Hussam/Intern/R EFA CFA SEM/ATGC_expFA.xlsx")
 View(ATGC)        
-attach(ATGC)
 
 ## When cfa=F, the paran() function performs a principal component parallel analysis (PCA)
 
