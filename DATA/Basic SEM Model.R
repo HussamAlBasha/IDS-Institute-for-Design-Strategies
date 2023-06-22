@@ -1,9 +1,10 @@
 ## Packages to be installed - only needs to be done once.
 
-install.packages("readxl")      ### reads excel
+install.packages("readxl")     
 install.packages("lavaan") 
 install.packages("semPlot") 
 install.packages("tidySEM") 
+install.packages("lavaanPlot")
 
 ## Pull the packages out of the library
 
@@ -11,8 +12,7 @@ library(readxl)
 library(lavaan)
 library(semPlot)
 library(tidySEM)
-#library(dplyr)
-#library(ggplot2)
+library(lavaanPlot)
 
 ## Read in & View the data set (Note the path might change in your case)
 
@@ -23,19 +23,37 @@ View(dat)
 
 ##Structural regression with two endogenous variables
 
-m6b <- ' # measurement model
-           SA =~ motiv + harm + stabi
-           SP =~ verbal + ses + ppsych
-           SD =~ age + gender + spell
+# SD = Social Demographics
+# c = Context
+# F = Facade Influence
+
+model <- ' # measurement models
+
+           #SA =~ chaotic + uneventful + annoying + monotonous
+           #SP =~ pleasant + vibrant + calm + eventful
+           #SD =~ age + gender + occupation + education + ethnicity   
+
+           P=~ chaotic + uneventful + annoying + monotonous +
+                         pleasant + vibrant + calm + eventful
+                         
+                  
+                  
+
+           AE =~ s_lvl + freq + psychoacoustics  
+           C =~ location + weather + space_use + time
+           F =~ Geometry_of_the_Facade  + Material_of_the_Facade + Mechanical_equipment
            
          # regressions
-           adjust ~ risk  
-           achieve ~ adjust + risk '
+           AE ~ F
+           C ~ F
+           #P ~ SA + SP + SD + C + AE 
+           P ~ C + AE 
+'
 
-fit6b <- sem(m6b, data=dat)
-summary(fit6b, standardized=T, fit.measures=T)
+fit <- sem(model, data=dat)
+summary(fit, standardized=T, fit.measures=T)
 
-lavaanPlot(model = fit6b,
+lavaanPlot(model = fit,
           node_options = list(shape = "box", fontname = "Helvetica"),
           edge_options = list(color = "grey"),
           coefs = T,
@@ -43,10 +61,10 @@ lavaanPlot(model = fit6b,
           covs  = T)
 
 # Graphics without customization
-graph_sem(model = fit6b)
+graph_sem(model = fit)
 
 # Customize Layout
 sem_layout <- get_layout("", "risk", "","","achieve","","","adjust", "",
                          "verbal", "ses", "ppsych", "read", "arith", "spell", "motiv", "harm", "stabi", rows = 3)
 # Graphic with customization
-graph_sem(model = fit6b, layout = sem_layout)
+graph_sem(model = fit, layout = sem_layout)
