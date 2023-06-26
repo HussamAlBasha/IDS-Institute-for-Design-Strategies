@@ -5,6 +5,7 @@ install.packages("lavaan")
 install.packages("semPlot") 
 install.packages("tidySEM") 
 install.packages("lavaanPlot")
+install.packages("paran")
 
 ## Pull the packages out of the library
 
@@ -13,41 +14,32 @@ library(lavaan)
 library(semPlot)
 library(tidySEM)
 library(lavaanPlot)
+library(psych)
+library(REdaS)
+library(GPArotation)
+library(paran)
 
 ## Read in & View the data set (Note the path might change in your case)
 
 dat <- read_excel("C:/Users/fspintern1/Desktop/Internship - Hussam/Intern/DATA/SEM Data.xlsx")
 View(dat)
 
-
-
 ##Structural regression with two endogenous variables
-
-# SD = Social Demographics
-# c = Context
-# F = Facade Influence
 
 model <- ' # measurement models
 
-           #SA =~ chaotic + uneventful + annoying + monotonous
-           #SP =~ pleasant + vibrant + calm + eventful
-           #SD =~ age + gender + occupation + education + ethnicity   
-
-           P=~ chaotic + uneventful + annoying + monotonous +
-                         pleasant + vibrant + calm + eventful
-                         
-                  
-                  
-
-           AE =~ s_lvl + freq + psychoacoustics  
-           C =~ location + weather + space_use + time
-           F =~ Geometry_of_the_Facade  + Material_of_the_Facade + Mechanical_equipment
+           AE =~ s_lvl + Freq + Psychoacoustics  
+           C  =~ Enclosed + Sky_Condition + Human_Density
+           F  =~ Geometry_of_the_Facade  + Material_of_the_Facade + Mechanical_Equipment
            
+           #SA =~ uneventful + eventful + pleasant + vibrant
+           #SP =~ calm + chaotic + annoying + monotonous  
+           P  =~ uneventful + eventful + pleasant + vibrant + calm + chaotic + annoying + monotonous 
+
          # regressions
            AE ~ F
-           C ~ F
-           #P ~ SA + SP + SD + C + AE 
-           P ~ C + AE 
+           C  ~ F
+           P  ~ C + AE 
 '
 
 fit <- sem(model, data=dat)
@@ -64,7 +56,14 @@ lavaanPlot(model = fit,
 graph_sem(model = fit)
 
 # Customize Layout
-sem_layout <- get_layout("", "risk", "","","achieve","","","adjust", "",
-                         "verbal", "ses", "ppsych", "read", "arith", "spell", "motiv", "harm", "stabi", rows = 3)
+sem_layout <- get_layout("Material_of_the_Facade", "Geometry_of_the_Facade","","", "Human_Density","Sky_Condition",
+                         "Mechanical_Equipment", "F","","", "C","Enclosed",
+                         "", "", "", "pleasant", "","eventful",
+                         "s_lvl", "AE","","", "P","calm",
+                         "Freq", "Psychoacoustics","","uneventful", "","vibrant",
+                         "", "",                   "","chaotic", "annoying","monotonous",
+                          rows = 6)
 # Graphic with customization
 graph_sem(model = fit, layout = sem_layout)
+
+

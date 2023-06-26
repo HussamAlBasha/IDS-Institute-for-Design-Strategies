@@ -3,12 +3,14 @@
 install.packages("lavaan") 
 install.packages("semPlot") 
 install.packages("tidySEM") 
+install.packages("lavaanPlot") 
 
 ## Pull the packages out of the library
 
 library(lavaan)
 library(semPlot)
 library(tidySEM)
+library(lavaanPlot)
 #library(dplyr)
 #library(ggplot2)
 
