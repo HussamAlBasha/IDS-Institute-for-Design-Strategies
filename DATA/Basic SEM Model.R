@@ -28,7 +28,7 @@ View(dat)
 
 model <- ' # measurement models
 
-           AE =~ s_lvl + Freq + Psychoacoustics  
+           AE =~ dBA + Freq + Psychoacoustics  
            C  =~ Enclosed + Sky_Condition + Human_Density
            F  =~ Geometry_of_the_Facade  + Material_of_the_Facade + Mechanical_Equipment
            
@@ -59,7 +59,7 @@ graph_sem(model = fit)
 sem_layout <- get_layout("Material_of_the_Facade", "Geometry_of_the_Facade","","", "Human_Density","Sky_Condition",
                          "Mechanical_Equipment", "F","","", "C","Enclosed",
                          "", "", "", "pleasant", "","eventful",
-                         "s_lvl", "AE","","", "P","calm",
+                         "dBA", "AE","","", "P","calm",
                          "Freq", "Psychoacoustics","","uneventful", "","vibrant",
                          "", "",                   "","chaotic", "annoying","monotonous",
                           rows = 6)
