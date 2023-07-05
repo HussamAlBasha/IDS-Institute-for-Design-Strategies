@@ -21,7 +21,7 @@ library(paran)
 
 ## Read in & View the data set (Note the path might change in your case)
 
-dat <- read_excel("C:/Users/fspintern1/Desktop/Internship - Hussam/Intern/DATA/SEM Data.xlsx")
+dat <- read_excel("C:/Users/fspintern1/Desktop/Internship - Hussam/Intern/Our SEM Model/SEM Data.xlsx", skip=2)
 View(dat)
 
 ##Structural regression with two endogenous variables
