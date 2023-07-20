@@ -9,7 +9,7 @@ PythonAcoustics:
     LAeq:
         run: true
         main: 'avg'
-        statistics: [] #[10, 50, 90, 95, 'min', 'max', 'kurt', 'skew', 'avg']
+        statistics: [] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
         channel: ["Left", "Right"]
         label: 'LAeq'
         func_args:
@@ -58,9 +58,9 @@ MoSQITo:
             field_type: "free"
 
     sharpness_din_from_loudness:
-        run: false
+        run: true
         main: "avg"
-        statistics: [] #[10, 50, 90, 95, 'min', 'max', 'kurt', 'skew', 'avg']
+        statistics: [] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
         channel: ["Left", "Right"]
         label: "S"
         parallel: true
@@ -69,10 +69,36 @@ MoSQITo:
             skip: 0.5
             field_type: "free"
 
-    roughness_dw:
+    sharpness_din_perseg:
         run: false
         main: "avg"
-        statistics: #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
+        statistics: [5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
+        channel: ["Left", "Right"]
+        label: "S_perseg"
+        parallel: false # Not really necessary for din_perseg
+        func_args:
+            weighting: "din"
+            nperseg: 4096
+            field_type: "free"
+
+    # sharpness_din_tv relies on loudness calcs.
+    # It's recommended to use sharpness_din_from_loudness instead.
+    sharpness_din_tv:
+        run: false
+        main: "avg"
+        statistics: [5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
+        channel: ["Left", "Right"]
+        label: "S_din_tv"
+        parallel: true
+        func_args:
+            weighting: "din"
+            field_type: "free"
+            skip: 0.5
+
+    roughness_dw:
+        run: true
+        main: "avg"
+        statistics: [] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
         channel: ["Left", "Right"]
         label: "R"
         parallel: true
