@@ -1,6 +1,6 @@
 # Internship at ISD
 
-## Soundscapy 
+## 1) Soundscapy 
 This section is based on this repository: https://github.com/MitchellAcoustics/Soundscapy
 
 Under this folder you can find a simple tutorial that helps you:
@@ -25,8 +25,13 @@ Under this folder you can find a simple tutorial that helps you:
   + Jointplot
 + #### Plotting Functions for Visualising Likert Scale Data
   + Radar/Spider Plot
-    
-## R EFA CFA SEM
+
+## 2) Python Workflow for Soundscape Assessment
+
+Under this folder you can find ...
+Here you can add your ideas about this section 
+
+## 3) R EFA CFA SEM
 
 Under this folder you can find a simple tutorial that helps you build your model, test it and run it.
 
@@ -53,6 +58,6 @@ examines the relationships between latent variables (factors) and other observed
 other words, SEM allows researchers to simultaneously test the measurement model and the 
 structural model, thereby examining the relationships and causal pathways between variables.
 
-## Python Workflow for Soundscape Assessment
+
 
 
