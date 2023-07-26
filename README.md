@@ -8,25 +8,24 @@ Under this folder you can find a simple tutorial that helps you:
 ### 1.	Setting Up Visual Studio Code 
 ### 2.	Cloning the repository in VSCode
 ### 3.	Using Soundscapy library that is used for:
--
-    a)	Binaural Recording Analysis
-        + Prepping the Results Dataframe
-        + Load in a Binaural Recording
-        + Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
-        + Defining Analysis Settings
-    b)	Statistical Analysis of the ISD Dataset
-        + Loading the Data
-        + Filtering the Data
-        + Validating the Data
-        + Calculating the ISOPleasant and ISOEventful Coordinate Values
-    c)	Plotting
-         i) Plotting Functions for Visualizing Circumplex Data
-            (1)	Scatter Plots
-            (2)	Distribution (Density) Plots
-            (3)	Jointplot
-        ii)	Plotting Functions for Visualizing Likert Scale Data
-            (1)	Radar/Spider Plot
-
+### 3.1) Binaural Recording Analysis
++ #### Prepping the Results Dataframe
++ #### Load in a Binaural Recording
++ #### Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
++ #### Defining Analysis Settings
+### 3.2) Statistical Analysis of the ISD Dataset
++ #### Loading the Data
++ #### Filtering the Data
++ #### Validating the Data
++ #### Calculating the ISOPleasant and ISOEventful Coordinate Values
+### 3.3) Plotting
++ #### Plotting Functions for Visualising Circumplex Data
+  + Scatter Plots
+  + Distribution (Density) Plots
+  + Jointplot
++ #### Plotting Functions for Visualising Likert Scale Data
+  + Radar/Spider Plot
+    
 ## R EFA CFA SEM
 
 Under this folder you can find a simple tutorial that helps you build and run you Model, test it and run it.
