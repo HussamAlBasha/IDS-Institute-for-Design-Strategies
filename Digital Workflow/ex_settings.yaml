@@ -50,7 +50,7 @@ MoSQITo:
     loudness_zwtv:
         run: true
         main: 5
-        statistics: [] #[10, 50, 90, 95, 'min', 'max', 'kurt', 'skew', 'avg']
+        statistics: ['avg'] #[10, 50, 90, 95, 'min', 'max', 'kurt', 'skew', 'avg']
         channel: ["Left", "Right"]
         label: "N"
         parallel: true
@@ -60,7 +60,7 @@ MoSQITo:
     sharpness_din_from_loudness:
         run: true
         main: "avg"
-        statistics: [] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
+        statistics: [5] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
         channel: ["Left", "Right"]
         label: "S"
         parallel: true
@@ -98,7 +98,7 @@ MoSQITo:
     roughness_dw:
         run: true
         main: "avg"
-        statistics: [] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
+        statistics: [5] #[5, 10, 50, 90, 95, 'min', 'max', 'kurt', 'skew']
         channel: ["Left", "Right"]
         label: "R"
         parallel: true
