@@ -28,7 +28,7 @@ Under this folder you can find a simple tutorial that helps you:
     
 ## R EFA CFA SEM
 
-Under this folder you can find a simple tutorial that helps you build and run you Model, test it and run it.
+Under this folder you can find a simple tutorial that helps you build your model, test it and run it.
 
 ### 1. Exploratory Factor Analysis (EFA)
 EFA is a statistical technique used in data analysis to uncover the underlying structure of a set 
