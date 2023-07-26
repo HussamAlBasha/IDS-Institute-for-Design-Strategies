@@ -5,9 +5,9 @@ This section is based on this repository: https://github.com/MitchellAcoustics/S
 
 Under this folder you can find a simple tutorial that helps you:
 
-A.	Setting Up Visual Studio Code 
-B.	Cloning the repository in VSCode
-C.	Using Soundscapy library that is used for:
+### 1.	Setting Up Visual Studio Code 
+### 2.	Cloning the repository in VSCode
+### 3.	Using Soundscapy library that is used for:
     a)	Binaural Recording Analysis
         i)	Prepping the Results Dataframe
         ii)	Load in a Binaural Recording
