@@ -3,9 +3,32 @@
 ## Soundscapy 
 This section is based on this repository: https://github.com/MitchellAcoustics/Soundscapy
 
+Under this folder you can find a simple tutorial that helps you:
+
+A.	Setting Up Visual Studio Code 
+B.	Cloning the repository in VSCode
+C.	Using Soundscapy library that is used for:
+    a)	Binaural Recording Analysis
+        i)	Prepping the Results Dataframe
+        ii)	Load in a Binaural Recording
+        iii)	Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
+        iv)	Defining Analysis Settings
+    b)	Statistical Analysis of the ISD Dataset
+        i)	Loading the Data
+        ii)	Filtering the Data
+        iii)	Validating the Data
+        iv)	Calculating the ISOPleasant and ISOEventful Coordinate Values
+    c)	Plotting
+         i) Plotting Functions for Visualizing Circumplex Data
+            (1)	Scatter Plots
+            (2)	Distribution (Density) Plots
+            (3)	Jointplot
+        ii)	Plotting Functions for Visualizing Likert Scale Data
+            (1)	Radar/Spider Plot
+
 ## R EFA CFA SEM
 
-Under this folder you can find a simple toutorial that helps you build and run you Model, test it and run it.
+Under this folder you can find a simple tutorial that helps you build and run you Model, test it and run it.
 
 ### 1. Exploratory Factor Analysis (EFA)
 EFA is a statistical technique used in data analysis to uncover the underlying structure of a set 
