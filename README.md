@@ -8,11 +8,11 @@ Under this folder you can find a simple tutorial that helps you:
 ### 1.	Setting Up Visual Studio Code 
 ### 2.	Cloning the repository in VSCode
 ### 3.	Using Soundscapy library that is used for:
-### 3.1) Binaural Recording Analysis
-+ #### Prepping the Results Dataframe
-+ #### Load in a Binaural Recording
-+ #### Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
-+ #### Defining Analysis Settings
+  ### 3.1) Binaural Recording Analysis
+  + #### Prepping the Results Dataframe
+  + #### Load in a Binaural Recording
+  + #### Calculating Acoustic Metrics(Python Acoustics, scikit-maad, MoSQITo)
+  + #### Defining Analysis Settings
 ### 3.2) Statistical Analysis of the ISD Dataset
 + #### Loading the Data
 + #### Filtering the Data
