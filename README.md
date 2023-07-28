@@ -28,8 +28,7 @@ Under this folder you can find a simple tutorial that helps you:
 
 ## 2) Python Workflow for Soundscape Assessment
 
-Under this folder you can find ...
-Here you can add your ideas about this section 
+This section presents a case study using Python to analyze and represent the data collected field recordings and measurements, as well as data collected in a preliminary laboratory experiment. The study "Python Workflow for Soundscape Assessment: Case Study of an Adaptive Façade in Detmold, Germany" was developed as a contribution to the "IDS Report on Sustainable Façades - Summer Semester 2023" as documentation for a digital workflow - therefore focused on software features rather than on answering the broader research question regarding the influence of adaptive façades on the urban soundscape.
 
 ## 3) R EFA CFA SEM
 
