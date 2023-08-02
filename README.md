@@ -32,8 +32,6 @@ This section presents a case study using Python to analyze and represent data co
 
 ## 3) R EFA CFA SEM
 
-Under this folder you can find a simple tutorial that helps you build your model, test it and run it.
-
 ### A. Exploratory Factor Analysis (EFA)
 EFA is a statistical technique used in data analysis to uncover the underlying structure of a set 
 of observed variables. The main goal of EFA is to understand the relationships among a large 
